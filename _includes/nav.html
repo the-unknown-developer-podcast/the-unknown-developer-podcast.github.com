@@ -1,5 +1,5 @@
 <!-- Navigation -->
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+<nav class="navbar navbar-default navbar-custom navbar-static-top">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll">
@@ -15,9 +15,26 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
+               {% if site.linkedin_username %}
                 <li>
-                    <a href="{{ site.baseurl }}/">Home</a>
+                    <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}"
+                       data-toggle="tooltip" data-placement="bottom" title="Linkedin">
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-linkedin-square fa-stack-2x"></i>
+                        </span>
+                    </a>
                 </li>
+                {% endif %}
+                {% if site.github_username %}
+                <li>
+                    <a href="https://github.com/{{ site.github_username }}"
+                       data-toggle="tooltip" data-placement="bottom" title="Github">
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-github-square fa-stack-2x"></i>
+                        </span>
+                    </a>
+                </li>
+                {% endif %}
                 {% for page in site.pages %}{% if page.title %}
 				{% if page.url != '/404.html' %}
                 <li>
