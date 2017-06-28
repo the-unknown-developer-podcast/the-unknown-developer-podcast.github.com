@@ -4,7 +4,7 @@ header-img: img/home-bg.jpg
 email: ordead6@gmail.com
 copyright_name: brunojensen
 description: "Write your site description here. It will be used as your sites meta description as well!"
-baseurl: "/blog"
+baseurl: ""
 url: "http://brunojensen.github.oi"
 github_username:  brunojensen
 linkedin_username:  brunojensen
