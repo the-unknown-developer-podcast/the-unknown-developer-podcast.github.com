@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "Primeira publicação"
+title: "About me"
 date: "2017-06-28 00:22:25"
 author: brunojensen
 header-img: img/post-bg-04.jpg
 ---
 
-<p>Hoje eu iniciei minha primeira publicação no meu blog. Estou utilizando o github pages + jekyll + atom para fazer isso.</p>
-<p>É incrível como a package do jekyll para o atom facilita o trabalho. Assim que eu tiver mais tempo, vou colocar um passo-à-passo.</p>
+<p>Hi, my name is Bruno Jensen, I'm a Java architect and I've been in this role for the past 3 years.</p>
+<p>Since the beginning of my journey I'll aways focus my carrier to this goal and I studded a lot. But all makes sense
+when I get my first architect challenge, an rule based engine for decision making on send messages to the client.</p>
