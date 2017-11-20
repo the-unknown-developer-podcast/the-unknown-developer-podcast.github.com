@@ -62,23 +62,15 @@
 <script src="{{ "/js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
 <script type="text/javascript">
 // <!--
-    $.ajax({
-        type: "GET",
-        url: 'https://api.github.com/users/{{ site.github_username }}/repos',
-        dataType: 'json',
-        success: function(response) {
-            $("#gh_repos").empty();
-            if (response.length > 0) {
-                for(var i = 0; i < $(response).length && i < 100; i++)
-                {
-                    if(response[i].fork == false)
+    for(var page = 1; page <= 3; page++) {
+        $("#gh_repos").empty();
+        $.get("https://api.github.com/users/brunojensen/repos?page=" + page).then(function(response) {
+            for(var i = 0; i < $(response).length; i++) {
+                if(response[i].fork == false) {
                     $('#gh_repos').append('<span style="padding: 5px;">(<a href="' + response[i]['html_url'] + '">' + response[i]['name'] + '</a>)</span>');
                 }
             }
-            else {
-                $('#gh_repos').html('<p>No public repositories.</p>');
-            }
-        }
-    });
+        });
+    }
 // -->
 </script>
