@@ -69,7 +69,7 @@
         success: function(response) {
             $("#gh_repos").empty();
             if (response.length > 0) {
-                for(var i = 0; i < $(response).length && i < 15; i++)
+                for(var i = 0; i < $(response).length && i < 100; i++)
                 {
                     if(response[i].fork == false)
                     $('#gh_repos').append('<span style="padding: 5px;">(<a href="' + response[i]['html_url'] + '">' + response[i]['name'] + '</a>)</span>');
