@@ -1,10 +1,13 @@
 ---
 layout: post
-title: "WIP: About me"
+title: "About me"
 date: "2017-06-28 00:22:25"
 author: brunojensen
 header-img: img/post-bg-04.jpg
 ---
 
-<p>Hi, my name is Bruno Jensen, I'm a Java architect and I've start in this role for the past 3 years.</p>
-<p>Since the beginning of my journey I've aways focus my carrier to this goal and I studied a lot. But all makes sense when I've received my first architect challenge: to build a rule based engine for decision making.</p>
+<p>Hi, my name is Bruno Jensen, I'm a software engineer with almost 10 years of experience in Java architecture and development. Specialized in web application development, SOA architecture and DevOps. I'm an agile enthusiast, a problem solver, an autodidact, and I love coding. I like to think that everything that can be automated should be automated and automated at the right time, with Jenkins</p>
+<p>I'm always studying new technologies and methodologies. I usually read 2 or more technical articles, per day, from a few blogs that I follow, like: Red Hat's Blog, Netflix's Tech Blog, Lightbend's blog, InfoQ, etc...</p>
+<p>I'm currently a leading developer on a small team of amazing people who make my job easier, so I try to motivate them with different activities, such as coding dojo, lectures and small workshops.</p>
+<p>I hope to do good posts in this blog. 'Cause if I'm not do that, I should shut it down! =)</p>
+
