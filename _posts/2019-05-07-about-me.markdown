@@ -1,0 +1,12 @@
+---
+layout: post
+title: "About me"
+date: "2019-05-07 00:22:25"
+author: brunojensen
+header-img: img/post-bg-04.jpg
+---
+
+<p>Hi, my name is Bruno Jensen, I'm a software engineer with experience in development and architecture of software for financial services industry. Along on my career I have been work mainly with Java technologies, but I also had the opportunity to lead a team of great people on previous experiences.</p>
+<p>I'm problem solver, agile enthusiast and one of my biggest passion is coding.</p>
+<p>I'm always studying new technologies and methodologies. I usually read 2 or more technical articles, per day, from a few blogs that I follow, like: Red Hat's Blog, Netflix's Tech Blog, Lightbend's blog, InfoQ, etc...</p>
+<p>I'm currently a leading developer on a small team of amazing people who make my job easier, so I try to motivate them with different activities, such as coding dojo, lectures and small workshops.</p>
