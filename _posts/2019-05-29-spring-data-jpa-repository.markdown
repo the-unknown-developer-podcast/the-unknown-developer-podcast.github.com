@@ -21,4 +21,4 @@ header-img: img/post-bg-02.jpg
 <p>And based on those problems I decided to write a spring-data-jpa extension which is based on the specification pattern just like the JpaSpecificationExecutor but allowing the developer to write Specifications classes with more flexibility on the filtering and with better maintainability of the query, whether is JPQL or native.</p>
 <p>Am I using this extension in that project? No, I’m not, the damage on that project is already done. I’m trying to avoid the same in future projects and help anyone how might facing the same situation.</p>
 <p>So, let’s contribute. I have some issues and improvements waiting for you on github :)</p>
-<p>https://github.com/brunojensen/spring-data-repository-demo</p>
+<p><a href=“https://github.com/brunojensen/spring-data-repository-demo”>https://github.com/brunojensen/spring-data-repository-demo</a></p>
