@@ -11,4 +11,4 @@ header-img: img/post-bg-06.jpg
 <p>The problem was when I wired the application into the xmpp server, turns out that I didn’t know that the xmpp listener was called even when the other user joined the server without send me any message. :D</p>
 <p>So, after one week I discovered that I was sending non-sense messages continuously to my co-workers. THE END.</p>
 <p>- Wasn’t that funny! ;)</p>
-<p><a href=“https://github.com/brunojensen/xmpp-chatbot”>https://github.com/brunojensen/xmpp-chatbot</a></p>
+[https://github.com/brunojensen/xmpp-chatbot](https://github.com/brunojensen/xmpp-chatbot]
