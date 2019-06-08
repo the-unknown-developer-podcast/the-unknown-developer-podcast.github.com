@@ -30,7 +30,7 @@ header-img: img/post-bg-02.jpg
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=spring.data.repository%3Aspring-data-jpa-repository&metric=alert_status)](https://sonarcloud.io/dashboard?id=spring.data.repository%3Aspring-data-jpa-repository)
 
 Demo:
-https://github.com/brunojensen/spring-data-repository-demo
+[https://github.com/brunojensen/spring-data-repository-demo](https://github.com/brunojensen/spring-data-repository-demo)
 
 Setup:
 
@@ -96,4 +96,3 @@ public Person findByEmail(String email) {
 ...
 
 ```
-
