@@ -6,7 +6,7 @@ author: brunojensen
 header-img: img/post-bg-02.jpg
 ---
 
-<h3>Design Sprint - a google ventures framework.</h3>
+<h3>Design Sprint - a Google Ventures framework.</h3>
 <p>Have you heard about [https://www.gv.com/sprint/](Design Sprint) before?</p>
 
 <p>My intention with this post is not to teach you about it but to share an experience that I had on my previous company. But I recommend you to have a look about it.</p>

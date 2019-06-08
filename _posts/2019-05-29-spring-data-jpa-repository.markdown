@@ -7,7 +7,7 @@ header-img: img/post-bg-02.jpg
 ---
 <p>On a recent experience working on a self-contained spring-boot based application I faced some “problems”. What happened was that even with so many different ways to write a repository with spring-data-jpa, in some cases it was not enough and as a quick solution the development team introduced a concrete implementation of respositories with EntityManager injection. Does it works? Yeah, of course, but is there any other way to do it? </p>
 <h3>spring-data-jpa</h3>
-<p>First, let’s explore more about how to use spring-data-jpa, I'll not going into details because you probably already know. If not, check [https://docs.spring.io/spring-data/jpa/docs/2.1.8.RELEASE/reference/html/](spring-data-jpa reference)</p>
+<p>First, let’s explore more about how to use spring-data-jpa, I'll not going into details because you probably already know. If not, check [spring-data-jpa reference](https://docs.spring.io/spring-data/jpa/docs/2.1.8.RELEASE/reference/html/)</p>
 <p>There are  three main solutions to write a query on a spring repository: Query methods, @Query annotation and JpaSpecificationExecutor.</p>
 <p>Well, it’s looks good, why would I need more?</p>
 
@@ -15,7 +15,7 @@ header-img: img/post-bg-02.jpg
 
 <h3>Spring data extension</h3>
 
-<p>Okay, what’s the chances of this happen in a project? Well, it shouldn’t happen, but sometimes it does. And everybody knows about the JPA limitations regarding querying in case you need performance, sometimes there’s no option besides writing a native query.</p> 
+<p>Okay, what’s the chances of this happen in a project? Well, it shouldn’t happen, but sometimes it does. And everybody knows about the JPA limitations regarding querying in case you need performance, sometimes there’s no option besides writing a native query.</p>
 
 <p>And based on those problems I decided to write a spring-data-jpa extension which is based on the specification pattern similar to JpaSpecificationExecutor but allowing the developer to write Specifications classes with more flexibility on the filtering and with better maintainability of the query, whether is JPQL or native.</p>
 
