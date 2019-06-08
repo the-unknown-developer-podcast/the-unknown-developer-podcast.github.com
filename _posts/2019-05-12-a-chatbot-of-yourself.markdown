@@ -9,6 +9,6 @@ header-img: img/post-bg-06.jpg
 <p>So, yeah, sometimes I get bored and to put my mind to work I’ve started with the xmpp integration. Pretty simple, I’m java developer and there’s a java library for almost everything. Cool, next step... watson which was also easy as they provide a java library to integrate with the server.</p>
 <p>I didn’t want to waste too much time, so I did a simple configuration in the NLP, everytime somebody asking me for help, the application will respond with a different way to say that I was busy. Isn’t really helpful when you’re focused in something else?</p>
 <p>The problem was when I wired the application into the xmpp server, turns out that I didn’t know that the xmpp listener was called even when the other user joined the server without send me any message. :D</p>
-<p>So, after one week I discovered that I was sending non-sense messages continuously to my co-workers. THE END.</p>
-<p>- Wasn’t that funny! ;)</p>
-[https://github.com/brunojensen/xmpp-chatbot](https://github.com/brunojensen/xmpp-chatbot]
+<p>So, after one week I discovered that I was sending non-sense messages continuously to my co-workers. :D</p>
+<p>Well my POC didn’t have any unit or integration test, so... Yeah, be careful before send something to production, I’ve learned my lesson.</p>
+[https://github.com/brunojensen/xmpp-chatbot](https://github.com/brunojensen/xmpp-chatbot)
