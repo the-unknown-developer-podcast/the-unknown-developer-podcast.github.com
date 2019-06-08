@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Design Sprint"
+title: "design sprint"
 date: "2019-06-01 00:22:25"
 author: brunojensen
 header-img: img/post-bg-02.jpg
 ---
 
 <h3>Design Sprint - a Google Ventures framework.</h3>
-<p>Have you heard about [https://www.gv.com/sprint/](https://www.gv.com/sprint/) before?</p>
+<p>Have you heard about [Design Sprint](https://www.gv.com/sprint) before?</p>
 
 <p>My intention with this post is not to teach you about it but to share an experience that I had on my previous company. But I recommend you to have a look about it.</p>
 
