@@ -22,3 +22,78 @@ header-img: img/post-bg-02.jpg
 <p>Am I using this extension in that project? No, I’m not, the damage on that project is already done. I’m trying to avoid the same in future projects and help anyone how might facing the same situation.</p>
 <p>So, let’s contribute. I have some issues and improvements waiting for you on github :)</p>
 [https://github.com/brunojensen/spring-data-repository-demo](https://github.com/brunojensen/spring-data-repository-demo)
+
+<h3>Project details: </h3>
+
+[![Build Status](https://travis-ci.org/brunojensen/spring-data-jpa-repository.svg?branch=master)](https://travis-ci.org/brunojensen/spring-data-jpa-repository)
+
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=spring.data.repository%3Aspring-data-jpa-repository&metric=alert_status)](https://sonarcloud.io/dashboard?id=spring.data.repository%3Aspring-data-jpa-repository)
+
+Demo:
+https://github.com/brunojensen/spring-data-repository-demo
+
+Setup:
+
+```java
+
+@EnableJpaRepositories(
+    value = "jpa.model.package",
+    repositoryBaseClass = RepositorySpecificationExecutorImpl.class)
+public class ... {
+
+}
+
+```
+
+Usage:
+
+```java
+
+public interface PersonRepository extends RepositorySpecificationExecutor<Person, String> {
+  // you still can use spring-data common Repository implementations
+  // this framework is only giving you a boost
+}
+
+```
+
+```java
+...
+
+public List<Person> searchBy(final Person person) {
+    return repository.searchBy(new TypedQuerySpecification<Person>() {
+        
+        @Override
+        public boolean isSatisfied() {
+           return null != person && null != person.getName()
+        }
+
+        @Override
+        public String query() {
+            return "FROM Person WHERE name = :name";
+        }
+
+        @Override
+        public void withPredicate(Query query) {
+            query.setParameter(“name”, person.getName());
+        }
+    });
+}
+
+public long countAll() {
+    // it requires casting for lamba expressions.
+    return repository.count((QuerySpecification) () -> "SELECT count(*) FROM Person");
+}
+
+public Person findByEmail(String email) {
+    return repository.find(new CriteriaQuerySpecification<Person>() {
+        @Override
+        public Predicate toPredicate(Root<Person> r, CriteriaQuery<?> cq, CriteriaBuilder cb) {
+            return cb.equal(r.get("email"), email);
+        }
+    });
+}
+
+...
+
+```
+
