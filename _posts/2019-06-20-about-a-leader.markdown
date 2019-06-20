@@ -6,7 +6,7 @@ author: brunojensen
 header-img: img/post-bg-01.jpg
 ---
 
-I was working as Senior developer for this company in Brazil when I start to get more responsibilities as a technical leader, not officially, but as I had the trust of everybody it was something the naturally came up. Anyway, it was something new for me and I’ve accepted as a challenge. 
+I was working as Senior developer for this company in Brazil when I start to get more responsibilities as a technical leader, not officially, but as I had the trust of everybody it was something that naturally came up. Anyway, it was something new for me and I’ve accepted as a challenge. 
 
 So I started to learn more about leadership.
 
