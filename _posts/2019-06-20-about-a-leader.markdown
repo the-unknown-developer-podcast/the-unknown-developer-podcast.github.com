@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "about a leader"
-date: "2019-05-20 00:22:25"
+date: "2019-06-20 00:22:25"
 author: brunojensen
 header-img: img/post-bg-01.jpg
 ---
