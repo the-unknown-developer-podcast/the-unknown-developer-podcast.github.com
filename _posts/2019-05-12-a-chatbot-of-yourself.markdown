@@ -5,7 +5,7 @@ date: "2019-05-12 00:22:25"
 author: brunojensen
 header-img: img/post-bg-06.jpg
 ---
-Funny story, I was working for this company in Brazil and we were using a xmpp protocol based application as internal communicator and in that time I was very curious about chatbots and I was doing some tests with IBM Watson, was more a study than a actual project for the company.
+Funny history, I was working for this company in Brazil and we were using a xmpp protocol based application as internal communicator and in that time I was very curious about chatbots and I was doing some tests with IBM Watson, was more a study than a actual project for the company.
 
 So, yeah, sometimes I get bored and to put my mind to work I’ve started with the xmpp integration. Pretty simple, I’m java developer and there’s a java library for almost everything. Cool, next step... watson which was also easy as they provide a java library to integrate with the server.
 
