@@ -125,3 +125,5 @@ Usage:
 ...
 
 ```
+
+[Comments here](https://github.com/brunojensen/brunojensen.github.com/issues)
