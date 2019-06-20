@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "About me"
+title: "about me"
 date: "2019-05-07 00:22:25"
 author: brunojensen
 header-img: img/post-bg-04.jpg
@@ -14,3 +14,5 @@ I'm always studying new technologies and methodologies. I usually read 2 or more
 
 In 2018 I had the opportunity to move to Berlin with my family and start a new challenge. We had a lot of
 different experiences along the run, but we still here and it's been really great.
+
+[Comments here](https://github.com/brunojensen/brunojensen.github.com/issues)
