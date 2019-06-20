@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "a chatbot of yourself"
-date: "2019-05-07 00:22:25"
+date: "2019-05-12 00:22:25"
 author: brunojensen
 header-img: img/post-bg-06.jpg
 ---
