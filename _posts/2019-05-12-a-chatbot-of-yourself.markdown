@@ -17,3 +17,5 @@ So, after one week I discovered that I was sending non-sense messages continuous
 Well my POC didn’t have any unit or integration test, so... Yeah, be careful before send something to production, I’ve learned my lesson.
 
 [https://github.com/brunojensen/xmpp-chatbot](https://github.com/brunojensen/xmpp-chatbot)
+
+[Comments here](https://github.com/brunojensen/brunojensen.github.com/issues)
