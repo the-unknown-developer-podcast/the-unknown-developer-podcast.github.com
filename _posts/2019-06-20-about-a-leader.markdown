@@ -49,3 +49,6 @@ We’ve done it like 5 times each of this activities.
 I was also planning other activities, like hackatoons, but unfortunately things moved on to another direction and all gone. 
 
 Even though, it was a really great time working with amazing people, working hard and delivering great software. And the memories remains.
+
+
+[Comments here](https://github.com/brunojensen/brunojensen.github.com/issues)
