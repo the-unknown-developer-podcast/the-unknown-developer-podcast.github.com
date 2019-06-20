@@ -25,3 +25,6 @@ We received a great feedback from the customer, from our company and from our ot
 What I learned from that experience is that you should never stop learning and trying new things - keep your mind open and hungry!
 
 Learn more about Design sprint with: [https://www.youtube.com/watch?v=K2vSQPh6MCE](https://www.youtube.com/watch?v=K2vSQPh6MCE)
+
+
+[Comments here](https://github.com/brunojensen/brunojensen.github.com/issues)
