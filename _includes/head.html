@@ -7,7 +7,7 @@
     <meta property="og:image" content="{{ site.url }}/{{ page.header-img }}" />
     <meta property="og:description" content="{{ page.subtitle }}" />
     {% else %}
-    <meta property="og:image" content="{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}" />
+    <meta property="og:image" content="{{ site.url }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}" />
     <meta property="og:description" content="{{ site.description }}" />
     {% endif %}
     
