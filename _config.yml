@@ -1,13 +1,13 @@
 # Site settings
-title: brunojensen
+title: the unknown developer podcast
 header-img: img/home-bg.jpg
-email: ordead6@gmail.com
-copyright_name: brunojensen
+email: theunknowndeveloper.podcast@gmail.com
+copyright_name: theunknowndeveloperpodcast
 description: "knowledge only real when shared"
 baseurl: ""
-url: "http://brunojensen.github.io"
-github_username:  brunojensen
-linkedin_username:  brunojensen
+url: "http://theunknowndeveloperpodcast.github.io"
+github_username:  theunknowndeveloperpodcast
+linkedin_username:  theunknowndeveloperpodcast
 show_profile_link: true
 #email_username:  ordead6@gmail.com
 
