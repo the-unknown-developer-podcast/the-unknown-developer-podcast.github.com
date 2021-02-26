@@ -1,19 +1,13 @@
 # Site settings
 title: the unknown developer podcast
-header-img: img/home-bg.jpg
+header-img: img/post-bg-005.jpg
 email: theunknowndeveloper.podcast@gmail.com
-copyright_name: theunknowndeveloperpodcast
+copyright_name: the-unknown-developer-podcast
 description: "knowledge only real when shared"
 baseurl: ""
 url: "http://theunknowndeveloperpodcast.github.io"
-github_username:  theunknowndeveloperpodcast
-linkedin_username:  theunknowndeveloperpodcast
+github_username:  the-unknown-developer-podcast
 show_profile_link: true
-#email_username:  ordead6@gmail.com
-
-# Google Analytics
-# To enable google analytics, uncomment below line with a valid Google Tracking ID
-# google_tracking_id:
 
 # Build settings
 markdown: kramdown
